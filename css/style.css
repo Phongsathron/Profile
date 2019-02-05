@@ -1,0 +1,169 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    /* background: #f4f3f3; */
+}
+
+.navbar{
+    background-color: #69779b;
+}
+
+.navbar .container{
+    padding: 10px 0px;
+}
+
+.navbar a{
+    color: #FFF;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(209, 196, 233, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #FFFFFF !important;
+    text-decoration: none;
+    background-color: #69779b;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .7rem;
+        padding-left: .7rem;
+    }
+}
+
+.navbar .dropdown-menu,
+.navbar .dropdown-menu a{
+    color: #424242;
+}
+
+
+.titleArea{
+    border-top: 1px solid #d1c4e9;
+    text-align: center;
+    padding: 80px 0px;
+    /* margin-bottom: 50px; */
+    color: #ffffff;
+}
+
+.titleArea h1{
+    margin-bottom: 0px;
+}
+
+.profile-container{
+    margin: 30px auto;
+}
+
+.myDetails .detailTitle{
+    float: left;
+    font-weight: bold;
+    color: #69779b;
+}
+
+.myDetails .detailText{
+    margin-left: 125px;
+    margin-bottom: 6px;
+}
+
+.myDetails {
+    margin: 25px 0px;
+}
+
+.title-container{
+    background: #69779b;
+}
+
+.profile-container h2{
+    margin: 60px 0px;
+}
+
+h2.center{
+    text-align: center;
+}
+
+.dashed-underline{
+    border-bottom: 2px dashed #69779b;
+}
+
+.profile-image{
+    height: 300px;
+    float: right;
+    margin: 10px 40px;
+}
+
+.profile-image img{
+    height: 100%;
+    border-radius: 10px;
+}
+
+#information,
+#education,
+#foods{
+    margin: 100px auto;
+}
+
+#foods .profile-container .card .card-img-top{
+    height: 160px;
+}
+
+#movies{
+    background: #424242;
+    padding: 30px 0px;
+}
+
+#movies .profile-container h2{
+    color: #fff7ff;
+}
+
+#movies .profile-container .dashed-underline{
+    border-color: #d1c4e9;
+}
+
+#movies .profile-container .card{
+    height: 100%;
+    background: #6d6d6d;
+    color: #FFF;
+    margin: 10px 0px;
+}
+
+#movies .profile-container .card .card-img-top{
+    height: 370px;
+}
+
+#movies .col-md-3,
+#foods .col-md-3{
+    margin: 10px auto;
+}
+
+@media (max-width: 579px){
+    #information h3{
+        text-align: center;
+    }
+    #information .profile-sns{
+        text-align: center;
+    }
+}
+
+#contact{
+    padding: 50px 0px;
+}
+
+.btn-sns{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    background: #d6dbea;
+    border-radius: 50%;
+}
+
+.btn-sns img{
+    width: 50%;
+    height: 50%;
+}
+
+.table thead{
+    color: #38435f;
+    background: #d6dbea;
+}
