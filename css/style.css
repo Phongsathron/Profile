@@ -1,5 +1,5 @@
 body{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lato', 'Work Sans', sans-serif;
     /* background: #f4f3f3; */
 }
 
@@ -130,7 +130,7 @@ h2.center{
     height: 370px;
 }
 
-#movies .col-md-3,
+#movies .movie-item,
 #foods .col-md-3{
     margin: 10px auto;
 }
@@ -139,7 +139,12 @@ h2.center{
     #information h3{
         text-align: center;
     }
-    #information .profile-sns{
+    #information .profile-sns ul.sns-list{
+        margin-left: 5em;
+    }
+    #information .profile-image{
+        margin: 10px auto;
+        float: none;
         text-align: center;
     }
 }
@@ -166,4 +171,18 @@ h2.center{
 .table thead{
     color: #38435f;
     background: #d6dbea;
+}
+
+.profile-sns h4{
+    float: left;
+    position: relative;
+    bottom: -7px;
+}
+
+ul.sns-list{
+    margin-left: 4em;
+}
+ul.sns-list li{
+    list-style: none;
+    display: inline-block;
 }
