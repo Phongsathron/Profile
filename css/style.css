@@ -135,7 +135,7 @@ h2.center{
     margin: 10px auto;
 }
 
-@media (max-width: 579px){
+@media (max-width: 576px){
     #information h3{
         text-align: center;
     }
@@ -185,4 +185,17 @@ ul.sns-list{
 ul.sns-list li{
     list-style: none;
     display: inline-block;
+}
+
+.jumbotron{
+    background-color: #69779b;
+    color: #FFF;
+}
+
+.jumbotron .container{
+    padding: 4rem 0rem;
+}
+
+.display-4{
+    font-weight: 400;
 }
